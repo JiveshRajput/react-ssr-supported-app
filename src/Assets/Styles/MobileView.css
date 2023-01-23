@@ -1,0 +1,56 @@
+    @media screen and (max-width: 500px) {
+        :root {
+            --fontSize: 17px;
+            --headSize: 48px;
+            --headingSize: 42px;
+            --titleHeadingSize: 30px;
+        }
+
+        .homeFullWithContainer {
+            padding: 10px 15px;
+            background-size: 25%, 35%;
+        }
+
+        .homeSubContainer {
+            padding: 15px 10px;
+        }
+
+        .bankDataInfoContainer {
+            flex: 1 1 100%;
+        }
+
+        .descriptionContainer p {
+            padding: 0px 5px;
+        }
+
+        .btnWithIcon, #homeBannerBtn  {
+            width: 150px;
+        }
+        
+        #homeBannerBtn:hover {
+            width: 153px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        .homeFullWithContainer {
+            background-size: 25%, 50%;
+        }
+
+        .homeSubContainer {
+            padding: 10px 0px;
+        }
+
+        #bankDetailSearchContainer {
+            padding: 20px 10px
+        }
+
+        #bankDetailSearchContainer h1 {
+            font-size: 28px;
+        }
+
+        #bankDetailSearchContainer h1 span::after {
+            height: 3px;
+            left: -3px;
+        }
+    }
